@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cp ./luna_pinyin*.yaml ~/.config/fcitx/rime/
+cp ./terra_pinyin*.yaml ~/.config/fcitx/rime/
+# you will also have to edit td_pinyin_flypy.schema.yaml
+# change
+# - dictionary: terra_pinyin
+# to
+# - dictionary: terra_pinyin.extended
